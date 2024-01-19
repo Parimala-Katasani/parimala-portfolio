@@ -12,25 +12,25 @@ const education = () => {
       <Navbar />
       <div  className="w-full h-full pr-4 md:pr-6 lg:pl-8 xl:pr-14 ">
         <div  className="introS w-full md:pr-[6rem]   lg:pr-[8rem] xl:pr-[12rem]">
-          <h1  className="text-white poppins font-semibold sm:mt-[5rem] md:mt-[4rem] text-4xl md:text-7xl ml-2">
+          <h1  className="text-white poppins font-semibold sm:mt-[7.5rem] md:mt-[6rem] mt-32 text-4xl md:text-7xl ml-2">
             Get to
             <span  className="text-transparent font-bold bg-clip-text bg-gradient-to-b to-purple-700 from-purple-200 ml-2 mr-2">Know</span>
             Me.
           </h1>
           <p  className="text-[#c2c2c2] text-xl font-medium monto mt-6 md:mt-8 lg:mt-10 xl:mt-12  ">
             Hey, I&#39;m a
-            <span  className="bg-[#9A7CF8] color-change text-white rounded-sm px-2">computer science engineer</span>
+            <span  className="bg-[#9A7CF8] color-change text-white text-justify rounded-sm px-2">computer science engineer</span>
             undergrad from RGMCET, rocking the MERN stack with Node.js and React experience!
 
           </p>
-          <p className="text-[#c2c2c2] font-medium monto mt-2 text-xl ">Throughout my academic journey, 
+          <p className="text-[#c2c2c2] font-medium monto mt-2 text-xl text-justify ">Throughout my academic journey, 
           I have excelled in subjects such as Data Structures and Algorithms, OOPS Concepts, SQL, OS 
           Fundamentals, Networking Fundamentals. I am particularly skilled in leveraging these theoretical 
           concepts to solve complex problems and develop efficient software solutions. </p>
-          <p className="text-[#c2c2c2] font-medium monto mt-2  text-xl">I am a quick learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications.</p>
+          <p className="text-[#c2c2c2] font-medium monto mt-2 text-justify text-xl">I am a quick learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications.</p>
         </div>
         <div className="location flex gap-4 mt-14 my-auto items-center justify-between w-full">
-          <div className=" text-[#c2c2c2] flex gap-1 monto font-medium monto text-xl">
+          <div className=" text-[#c2c2c2] flex gap-1 monto font-medium text-xl">
            <FaLocationDot />
             <p>Andhra Pradesh,India</p>
           </div>

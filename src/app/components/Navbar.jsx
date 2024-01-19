@@ -26,10 +26,10 @@ const Navbar = () => {
 
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
-      <div className="flex container lg:py-4 flex-wrap items-center justify-between ml-7  py-2">
+      <div className="flex container lg:py-4 flex-wrap items-center justify-between ml-7  py-2px">
         <Link
           href={"/"}
-          className="transform hover:scale-150 ml-5"
+          className="transform hover:scale-150 ml-3"
         >
           <Image src="/images/logopk.png" width={110} height={50} alt="logo"/>
         </Link>
@@ -37,14 +37,14 @@ const Navbar = () => {
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
+              className="flex items-center px-3 py-2 mr-10 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
             >
               <Bars3Icon className="h-5 w-5" />
             </button>
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
+              className="flex items-center px-3 py-2 mr-10 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
             >
               <XMarkIcon className="h-5 w-5" />
             </button>

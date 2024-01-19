@@ -109,7 +109,7 @@ function skills() {
       <div className="flex-1 mt-[5.4rem] py-4 pl-4 md:mt-0 h-screen overflow-y-auto md:pt-8 md:pl-6 lg:pt-12 lg:pl-8 xl:pl-14 xl:pt-24 scrollbar-thin scrollbar-thumb-purple-700 scrollbar-rounded">
         <div className="w-full h-full pr-4 md:pr-6 lg:pl-8 xl:pr-14 scroll-smooth">
           <div className="intro w-full md:pr-[6rem]   lg:pr-[8rem] xl:pr-[12rem] ">
-            <h1 className="text-white poppins font-semibold text-4xl md:text-5xl md:mt-[3.5rem] ">
+            <h1 className="text-white poppins font-semibold text-4xl md:text-5xl md:mt-[6.5rem] sm:mt-[2rem] mt-10 ">
               My
               <span className="text-transparent font-bold bg-clip-text mr-4 ml-4 bg-gradient-to-b to-purple-700 from-purple-200">
                 Technological
@@ -134,7 +134,7 @@ function skills() {
                         </div>
                         <div className="relative left-8 flex flex-col justify-center pl-2">
                           <h4 className="monto font-semibold text-lg lg:text-xl xl:text-2xl leading-tight">{name}</h4>                        
-                          <p classname="raleway text-lg text-[#c2c2c2] leading-tight pr-12 xl:pr-10">{desc}</p>                                                 
+                          <p className="raleway text-lg text-[#c2c2c2] leading-tight pr-12 xl:pr-10">{desc}</p>                                                 
                         </div>
                     </div>
                   </>
@@ -155,7 +155,7 @@ function skills() {
                         </div>
                         <div className="relative left-8 flex flex-col justify-center pl-2">
                           <h4 className="monto font-semibold text-lg lg:text-xl xl:text-2xl leading-tight">{namefw}</h4>                        
-                          <p classname="raleway text-lg text-[#c2c2c2] leading-tight pr-12 xl:pr-10">{descfw}</p>                                                 
+                          <p className="raleway text-lg text-[#c2c2c2] leading-tight pr-12 xl:pr-10">{descfw}</p>                                                 
                         </div>
                     </div>
                   </>
@@ -176,7 +176,7 @@ function skills() {
                         </div>
                         <div className="relative left-8 flex flex-col justify-center pl-2">
                           <h4 className="monto font-semibold text-lg lg:text-xl xl:text-2xl leading-tight">{namedb}</h4>                        
-                          <p classname="raleway text-lg text-[#c2c2c2] leading-tight pr-12 xl:pr-10">{descdb}</p>                                                 
+                          <p className="raleway text-lg text-[#c2c2c2] leading-tight pr-12 xl:pr-10">{descdb}</p>                                                 
                         </div>
                     </div>
                   </>
@@ -185,7 +185,7 @@ function skills() {
             </div>             
           </div>
 
-          <div class="w-full h-10"></div>
+          <div className="w-full h-10"></div>
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ const projectsData = [
     description: "Next.js, Tailwindcss",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Parimala-Katasani/parimala-portfolio",
     previewUrl: "/",
   },
   {
