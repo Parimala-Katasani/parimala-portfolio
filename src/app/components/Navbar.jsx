@@ -31,7 +31,7 @@ const Navbar = () => {
           href={"/"}
           className="transform hover:scale-150 ml-5"
         >
-          <Image src="/images/logopk.png" width={110} height={50} />
+          <Image src="/images/logopk.png" width={110} height={50} alt="logo"/>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

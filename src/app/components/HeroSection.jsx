@@ -33,7 +33,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Hustling in the realm of web development, I'm on the lookout for the ideal opportunity to showcase my skills and make a meaningful impact!</p>
+          Hustling in the realm of web development, I&#39;m on the lookout for the ideal opportunity to showcase my skills and make a meaningful impact!</p>
           <div>
             <Link
               href="/#contact"

@@ -18,7 +18,7 @@ const education = () => {
             Me.
           </h1>
           <p  className="text-[#c2c2c2] text-xl font-medium monto mt-6 md:mt-8 lg:mt-10 xl:mt-12  ">
-            Hey, I'm a
+            Hey, I&#39;m a
             <span  className="bg-[#9A7CF8] color-change text-white rounded-sm px-2">computer science engineer</span>
             undergrad from RGMCET, rocking the MERN stack with Node.js and React experience!
 
@@ -62,7 +62,7 @@ const education = () => {
                     <LuSchool />
                   </span>
                   <h3 className="flex items-center mb-1 ml-8 font-semibold text-white monto text-xl ">
-                    Intermediate - Rao's Junior College, Nandyal
+                    Intermediate - Rao&#39;s Junior College, Nandyal
                   </h3>
                   <time className="block raleway mb-1 ml-8 text-base font-normal leading-none text-[#c2c2c2]  ">2020</time>
                    <p className="mb-1 ml-8 text-base raleway font-semibold text-[#9A7CF8]">Mathematics,Physics,Chemistry (MPC)</p>
@@ -110,7 +110,7 @@ const education = () => {
 
         {/* Lets connect  */}
         <div class="arrow contact-section min-w-max items-center justify-center text-center flex w-full0 text-white mt-20 ">
-          <a class="text-center text-[2.3rem] sm:text-[5rem] md:text-[4.43rem] lg:text-[4rem] xl:text-[5rem] 2xl:text-[6rem] w-full poppins">Let's Connect!</a>
+          <a class="text-center text-[2.3rem] sm:text-[5rem] md:text-[4.43rem] lg:text-[4rem] xl:text-[5rem] 2xl:text-[6rem] w-full poppins">Let&#39;s Connect!</a>
         </div>
         <div class="w-full h-10"></div>
 

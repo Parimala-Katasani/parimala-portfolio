@@ -117,8 +117,8 @@ function skills() {
               Array.
             </h1>
             <p className="text-[#c2c2c2] font-medium monto mt-6 md:mt-8 lg:mt-10 xl:mt-12 text-xl ">
-            Here's a peek into my tech toolkit, the magic behind creating awesome projects - 
-            the secret sauce behind crafting projects so stunning, it's leaving everyone in awe!
+            Here&#39;s a peek into my tech toolkit, the magic behind creating awesome projects - 
+            the secret sauce behind crafting projects so stunning, it&#39;s leaving everyone in awe!
             </p>
           </div>
 
@@ -130,7 +130,7 @@ function skills() {
                   <>
                     <div className="box3 w-full pr-10  lg:pr-[1.0rem] xl:pr-20 min-h-fit max-h-full py-5 items-center justify-start text-white flex border border-none rounded-md hover:-translate-y-1 shadow-lg hover:shadow-purple-400/50 bg-[#1A1A1A]">
                         <div className="relative left-7">
-                          <img className=" w-12 h-auto" src={image} />
+                          <img className=" w-12 h-auto" src={image} alt="logo" />
                         </div>
                         <div className="relative left-8 flex flex-col justify-center pl-2">
                           <h4 className="monto font-semibold text-lg lg:text-xl xl:text-2xl leading-tight">{name}</h4>                        
@@ -151,7 +151,7 @@ function skills() {
                   <>
                     <div className="box3 w-full pr-10  lg:pr-[1.0rem] xl:pr-20 min-h-fit max-h-full py-5 items-center justify-start text-white flex border border-none rounded-md hover:-translate-y-1 shadow-lg hover:shadow-yellow-500/50 bg-[#1A1A1A]">
                         <div className="relative left-7">
-                          <img className=" w-12 h-auto" src={imagefw} />
+                          <img className=" w-12 h-auto" src={imagefw} alt="logo"/>
                         </div>
                         <div className="relative left-8 flex flex-col justify-center pl-2">
                           <h4 className="monto font-semibold text-lg lg:text-xl xl:text-2xl leading-tight">{namefw}</h4>                        
@@ -172,7 +172,7 @@ function skills() {
                   <>
                     <div className="box3 w-full pr-10  lg:pr-[1.0rem] xl:pr-20 min-h-fit max-h-full py-5 items-center justify-start text-white flex border border-none rounded-md hover:-translate-y-1 shadow-lg hover:shadow-green-400/50 bg-[#1A1A1A]">
                         <div className="relative left-7">
-                          <img className=" w-12 h-auto" src={imagedb} />
+                          <img className=" w-12 h-auto" src={imagedb} alt="logo"/>
                         </div>
                         <div className="relative left-8 flex flex-col justify-center pl-2">
                           <h4 className="monto font-semibold text-lg lg:text-xl xl:text-2xl leading-tight">{namedb}</h4>                        

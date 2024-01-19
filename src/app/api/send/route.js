@@ -18,7 +18,7 @@ export async function POST(req, res) {
           {/* <h1>{subject}</h1> */}
           <h3>Dear {email},</h3>
           <p>Thank you for reaching out and expressing interest in my skills.
-             I'm thrilled about the opportunity to discuss how we can collaborate. 
+             I&#39;m thrilled about the opportunity to discuss how we can collaborate. 
              Looking forward to connecting soon.
           </p>
           <p>Best regards,</p>
